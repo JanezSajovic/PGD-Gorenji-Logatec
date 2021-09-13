@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>PGD Gorenji Logatec</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="~/ikona.png" rel="icon">
+    @*<link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="icon" type="image/x-icon" href="/firefighter.png">*@
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    @*<link href="~/css/site.css" rel="stylesheet">*@
+    <link href="~/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="~/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: Company - v2.2.1
+    * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo mr-auto"><a href="index.html"><span>PGD</span> GORENJI LOGATEC</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul id="ul-menu" onclick="myActive(event)">
+                    <li id="Domov"><a href="@Url.Action("Domov", "Home")">Domov</a></li>
+                    <li id="Intervencije"><a href="@Url.Action("Intervencije", "Home")">Intervencije</a></li>
+                    <li id="Povezave"><a href="@Url.Action("Povezave", "Home")">Koristne povezave</a></li>
+                    <li id="Novice"><a href="@Url.Action("Novice", "Home")">Novice</a></li>
+                    <li id="Oprema"><a href="@Url.Action("Oprema", "Home")">Vozila in oprema</a></li>
+                    <li id="Kontakt"><a href="@Url.Action("Kontakt", "Home")">Kontakt</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+            <div class="header-social-links">
+                <a href="https://www.facebook.com/pgd.gorenjilogatec" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/pgdgorenjilogatec/" class="instagram"><i class="icofont-instagram"></i></a>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+    @RenderBody()
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-6 footer-contact">
+                        <h3>PGD GORENJI LOGATEC </h3>
+                        <p>
+                            Tržaška cesta 109, Logatec, 1370, Slovenija
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="mr-md-auto text-center text-md-left">
+                <div class="copyright">
+                    &copy; Avtorske pravice <strong><span>PDG</span> Gorenji Logatec</strong>. Pravice pridržane
+                </div>
+                <div class="credits">
+                    Ustvarjeno s strani <strong>Janez Sajovic</strong>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="~/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="~/assets/vendor/php-email-form/validate.js"></script>
+    <script src="~/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+    <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="~/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="~/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="~/assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/js/site.js"></script>
+
+    <script>
+        //var header = document.getElementById("ul-menu");
+        //console.log(header);
+        //var btns = header.getElementsByClassName("qwe");
+        //console.log(btns);
+        //for (var i = 0; i < btns.length; i++) {
+        //    btns[i].addEventListener("click", function () {
+        //        var current = document.getElementsByClassName("active");
+        //        current[0].className = current[0].className.replace(" active", "");
+        //        this.className += " active";
+        //    });
+        //}
+
+        function myActive(e) {
+            var elems = document.querySelectorAll(".active");
+            [].forEach.call(elems, function (el) {
+                el.classList.remove("active");
+            });
+            e.target.className = "active";
+        }
+
+
+    </script>
+</body>
+</html>

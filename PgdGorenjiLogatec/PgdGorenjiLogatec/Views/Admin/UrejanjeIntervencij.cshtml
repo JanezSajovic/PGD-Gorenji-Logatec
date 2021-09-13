@@ -1,0 +1,47 @@
+﻿@model PgdGorenjiLogatec.CustomModels.All_Intervencije
+
+@{
+    ViewData["Title"] = "UrejanjeIntervencij";
+}
+
+
+<section class="povezave">
+    <h1>Urejanje Intervencij</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <td><b>ID intervencije</b></td>
+                <td><b>Naslov intervencije</b></td>
+                <td><b>Datum intervencije</b></td>
+                <td><b>Opis intervencije</b></td>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var item in Model.SeznamIntervencij)
+            {
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @item.Naslov
+                    </td>
+                    <td>
+                        @item.Datum
+                    </td>
+                    <td>
+                        @item.Opis.Substring(0, 5)  ...
+                    </td>
+                    <td>
+                        @Html.ActionLink("Uredi", "Uredi", "Admin", new { id = item.Id }) |
+                        @Html.ActionLink("Podrobnosti", "Details", "Admin", new { id = item.Id }) |
+                        @Html.ActionLink("Izbriši", "Delete", "Admin", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+

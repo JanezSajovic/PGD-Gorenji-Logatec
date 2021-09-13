@@ -1,0 +1,41 @@
+﻿@model PgdGorenjiLogatec.CustomModels.Uporabnik
+@{
+    ViewData["Title"] = "Login";
+}
+
+<section id="povezave" class="povezave">
+    <div class="section-title">
+        <h2>Prijava v sistem</h2>
+    </div>
+    <form method="post" asp-controller="admin" asp-action="prijava">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 entries">
+                    <div class="row">
+
+                        <div class="col-lg-6 text-right">
+                            <label asp-for="UporabniskoIme">Uporabniško ime:</label>
+                        </div>
+                        <div class="col-lg-6">
+                            <input asp-for="UporabniskoIme" />
+                        </div>
+                        <br />
+                        <br />
+                        <div class="col-lg-6 text-right">
+                            <label asp-for="Geslo">Geslo: </label>
+                        </div>
+                        <div class="col-lg-6">
+                            <input asp-for="Geslo" />
+                        </div>
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="submit" value="Prijava" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>

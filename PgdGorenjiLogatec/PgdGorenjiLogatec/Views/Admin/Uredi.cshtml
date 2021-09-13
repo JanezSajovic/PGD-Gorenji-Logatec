@@ -1,0 +1,39 @@
+﻿@model PgdGorenjiLogatec.CustomModels.Intervencija
+
+@{
+    ViewData["Title"] = "Urejanje Intervencije";
+}
+
+<section class="povezave">
+    <h1>Urejanje Intervencije</h1>
+    <form asp-controller="Admin" asp-action="Uredi" method="post">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td><b>ID intervencije</b></td>
+                    <td><b>Naslov intervencije</b></td>
+                    <td><b>Datum intervencije</b></td>
+                    <td><b>Opis intervencije</b></td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        @Html.TextBoxFor(x => x.Id)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(x => x.Naslov)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(x => x.Datum)                      
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(x => x.Opis)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">Posodobi</button>
+    </form>
+</section>

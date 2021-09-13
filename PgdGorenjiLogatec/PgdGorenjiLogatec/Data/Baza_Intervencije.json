@@ -1,0 +1,22 @@
+{
+  "SeznamIntervencij": [
+    {
+      "Id": 1,
+      "Naslov": "dimniški požar",
+      "Datum": "1.12.2021",
+      "Opis": "qweqweqwe"
+    },
+    {
+      "Id": 2,
+      "Naslov": "dimniški požar",
+      "Datum": "1.12.2021",
+      "Opis": "qweqweqwe"
+    },
+    {
+      "Id": 3,
+      "Naslov": "dimniški požar",
+      "Datum": "1.12.2021",
+      "Opis": "qweqweqwe"
+    }
+  ]
+}
