@@ -780,7 +780,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.AssemblyReference.cache
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.AssemblyInfoInputs.cache
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.AssemblyInfo.cs
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.CoreCompileInputs.cache
@@ -816,3 +815,5 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.pdb
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.genruntimeconfig.cache
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Izbrisi.cshtml.g.cs
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.AssemblyReference.cache

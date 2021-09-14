@@ -23,7 +23,12 @@ namespace PgdGorenjiLogatec.Controllers
 
         public IActionResult Domov()
         {
-            return View();
+            List<Intervencija> All = GetIntervencije();
+            List<Intervencija> temp = new List<Intervencija>();
+            for (int i = All.Count()-1; i > All.Count - 4; i--) {
+                temp.Add(All[i]);
+            }
+            return View(temp);
         }
 
         public IActionResult Kontakt()
@@ -47,29 +52,20 @@ namespace PgdGorenjiLogatec.Controllers
 
         public IActionResult Intervencije()
         {
-            All_Intervencije All = GetIntervencije();
-            //Intervencija ewq = new Intervencija();
-            //ewq.Id = 4;
-            //ewq.Datum = "1.1.1111";
-            //ewq.Naslov = "qweqwe";
-            //ewq.Opis = "qweqwe";
-            //All.SeznamIntervencij.Add(ewq);
+            List<Intervencija> All = GetIntervencije();
             return View(All);
         }
 
-        public All_Intervencije GetIntervencije()
+        public List<Intervencija> GetIntervencije()
         {
             string json = "";
-            All_Intervencije intervencije = new All_Intervencije();
-            List<Intervencija> qwe = new List<Intervencija>();
+            List<Intervencija> intervencije = new List<Intervencija>();
             using (StreamReader r = new StreamReader("Data/Baza_Intervencije_2021.json"))
             {
                 json = r.ReadToEnd();
-                //intervencije = JsonConvert.DeserializeObject<All_Intervencije>(json);
-                qwe = JsonConvert.DeserializeObject<List<Intervencija>>(json);
+                intervencije = JsonConvert.DeserializeObject<List<Intervencija>>(json);
+                
             }
-            int a = 1;
-
             return intervencije;
         }
 

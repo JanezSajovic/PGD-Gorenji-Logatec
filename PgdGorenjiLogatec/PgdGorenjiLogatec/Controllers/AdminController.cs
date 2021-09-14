@@ -57,28 +57,15 @@ namespace PgdGorenjiLogatec.Controllers
 
         public ActionResult UrejanjeIntervencij()
         {
-            string json = "";
-            All_Intervencije intervencije = new All_Intervencije();
-            using (StreamReader r = new StreamReader("Data/Baza_Intervencije.json"))
-            {
-                json = r.ReadToEnd();
-                intervencije = JsonConvert.DeserializeObject<All_Intervencije>(json);
-            }
-
-            return View(intervencije);
+            List<Intervencija> All = GetIntervencije();
+            return View(All);
             //return View();
         }
 
         public ActionResult Uredi(int id) {
-            string json = "";
+            List<Intervencija> All = GetIntervencije();
             Intervencija glavna_intervencija = new Intervencija();
-            All_Intervencije intervencije = new All_Intervencije();
-            using (StreamReader r = new StreamReader("Data/Baza_Intervencije_2021.json"))
-            {
-                json = r.ReadToEnd();
-                intervencije = JsonConvert.DeserializeObject<All_Intervencije>(json);
-            }
-            foreach (var inter in intervencije.SeznamIntervencij) {
+            foreach (var inter in All) {
                 if (inter.Id == id) {
                     return View(inter);
                 }
@@ -90,15 +77,9 @@ namespace PgdGorenjiLogatec.Controllers
         [HttpPost]
         public ActionResult Uredi(Intervencija i)
         {
-            string json = "";
+            List<Intervencija> All = GetIntervencije();
             Intervencija glavna_intervencija = new Intervencija();
-            All_Intervencije intervencije = new All_Intervencije();
-            using (StreamReader r = new StreamReader("Data/Baza_Intervencije.json"))
-            {
-                json = r.ReadToEnd();
-                intervencije = JsonConvert.DeserializeObject<All_Intervencije>(json);
-            }
-            foreach (var inter in intervencije.SeznamIntervencij)
+            foreach (var inter in All)
             {
                 if (inter.Id == i.Id)
                 {
@@ -109,20 +90,48 @@ namespace PgdGorenjiLogatec.Controllers
                 }
             }
 
-            Write(intervencije);
+            Write(All);
 
             return View(i);
         }
 
-        public void Write(All_Intervencije model)
+        [HttpGet]
+        public ActionResult Izbrisi(int id){
+            List<Intervencija> All = GetIntervencije();
+            Intervencija rez = All.Find(x => x.Id == id);
+            return View(rez);
+        }
+
+        [HttpPost]
+        public ActionResult Izbrisi(Intervencija i){
+            List<Intervencija> All = GetIntervencije();
+            All.RemoveAll(x => x.Id == i.Id);
+            Write(All);
+            return RedirectToAction("UrejanjeIntervencij", "Admin");
+        }
+
+
+
+
+        public void Write(List<Intervencija> model)
         {
-            string json = JsonConvert.SerializeObject(model.SeznamIntervencij.ToArray());
+            string json = JsonConvert.SerializeObject(model.ToArray());
 
             //write string to file
             System.IO.File.WriteAllText("Data\\Baza_Intervencije_2021.json", json);
         }
 
+        public List<Intervencija> GetIntervencije()
+        {
+            string json = "";
+            List<Intervencija> intervencije = new List<Intervencija>();
+            using (StreamReader r = new StreamReader("Data/Baza_Intervencije_2021.json"))
+            {
+                json = r.ReadToEnd();
+                intervencije = JsonConvert.DeserializeObject<List<Intervencija>>(json);
 
-
+            }
+            return intervencije;
+        }
     }
 }

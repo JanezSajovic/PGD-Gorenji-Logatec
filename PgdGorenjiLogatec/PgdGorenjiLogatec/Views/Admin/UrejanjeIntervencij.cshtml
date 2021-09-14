@@ -1,4 +1,4 @@
-﻿@model PgdGorenjiLogatec.CustomModels.All_Intervencije
+﻿@model List<PgdGorenjiLogatec.CustomModels.Intervencija>
 
 @{
     ViewData["Title"] = "UrejanjeIntervencij";
@@ -6,7 +6,9 @@
 
 
 <section class="povezave">
-    <h1>Urejanje Intervencij</h1>
+    <div class="section-title">
+        <h2>UREJANJE INTERVENCIJ</h2>
+    </div>
     <table class="table">
         <thead>
             <tr>
@@ -14,11 +16,12 @@
                 <td><b>Naslov intervencije</b></td>
                 <td><b>Datum intervencije</b></td>
                 <td><b>Opis intervencije</b></td>
+                <td><b></b></td>
             </tr>
 
         </thead>
         <tbody>
-            @foreach (var item in Model.SeznamIntervencij)
+            @foreach (var item in Model)
             {
                 <tr>
                     <td>
@@ -36,7 +39,7 @@
                     <td>
                         @Html.ActionLink("Uredi", "Uredi", "Admin", new { id = item.Id }) |
                         @Html.ActionLink("Podrobnosti", "Details", "Admin", new { id = item.Id }) |
-                        @Html.ActionLink("Izbriši", "Delete", "Admin", new { id = item.Id })
+                        @Html.ActionLink("Izbriši", "Izbrisi", "Admin", new { id = item.Id })
                     </td>
                 </tr>
             }
