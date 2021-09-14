@@ -53,6 +53,7 @@ namespace PgdGorenjiLogatec.Controllers
         public IActionResult Intervencije()
         {
             List<Intervencija> All = GetIntervencije();
+            All.Reverse();
             return View(All);
         }
 
