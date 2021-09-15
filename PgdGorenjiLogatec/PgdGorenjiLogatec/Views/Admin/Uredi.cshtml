@@ -10,7 +10,6 @@
         <table class="table">
             <thead>
                 <tr>
-                    <td><b>ID intervencije</b></td>
                     <td><b>Naslov intervencije</b></td>
                     <td><b>Datum intervencije</b></td>
                     <td><b>Opis intervencije</b></td>
@@ -19,21 +18,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        @Html.TextBoxFor(x => x.Id)
+                    <td style="display:none;">
+                        @Html.HiddenFor(x => x.Id)
                     </td>
                     <td>
-                        @Html.TextBoxFor(x => x.Naslov)
+                        @Html.TextAreaFor(x => x.Naslov, new { rows = "5", cols = "40", style = "resize: none; " })
                     </td>
                     <td>
                         @Html.TextBoxFor(x => x.Datum)                      
                     </td>
                     <td>
-                        @Html.TextAreaFor(x => x.Opis)
+                        @Html.TextAreaFor(x => x.Opis, new { rows = "10", cols = "80", style = "resize: none; " })
                     </td>
                 </tr>
             </tbody>
         </table>
-        <button type="submit">Posodobi</button>
+        <button type="submit" class="btn btn-secondary">Posodobi</button>
     </form>
 </section>

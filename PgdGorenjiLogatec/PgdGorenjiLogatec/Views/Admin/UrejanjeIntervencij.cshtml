@@ -12,7 +12,6 @@
     <table class="table">
         <thead>
             <tr>
-                <td><b>ID intervencije</b></td>
                 <td><b>Naslov intervencije</b></td>
                 <td><b>Datum intervencije</b></td>
                 <td><b>Opis intervencije</b></td>
@@ -23,20 +22,21 @@
         <tbody>
             @foreach (var item in Model)
             {
+                
                 <tr>
-                    <td>
-                        @item.Id
+                    <td style="display:none">
+                        <input asp-for="@item.Id" type="hidden" />
                     </td>
-                    <td>
+                    <td style="text-align:left">
                         @item.Naslov
                     </td>
                     <td>
                         @item.Datum
                     </td>
                     <td>
-                        @item.Opis.Substring(0, 5)  ...
+                        @item.Opis.Substring(0, 80)  ...
                     </td>
-                    <td>
+                    <td style="text-align:right">
                         @Html.ActionLink("Uredi", "Uredi", "Admin", new { id = item.Id }) |
                         @Html.ActionLink("Podrobnosti", "Details", "Admin", new { id = item.Id }) |
                         @Html.ActionLink("Izbriši", "Izbrisi", "Admin", new { id = item.Id })

@@ -1,44 +1,14 @@
 [
   {
-    "Id": 1,
-    "Naslov": "dimniški požar",
-    "Datum": "2021-01-12T00:00:00",
-    "Opis": "Pomoč ni bila potrebna"
+    "Id": 100,
+    "Naslov": "Požar tovornega vozila",
+    "Datum": "2021-01-05T00:00:00",
+    "Opis": "Ob 9.02 smo prejeli poziv, da gori tovorno vozilo na avtocesti pred izvozom za Logatec. Šlo je za tehnično okvaro."
   },
   {
-    "Id": 2,
-    "Naslov": "dimniški požar",
-    "Datum": "1.12.2021",
-    "Opis": "qweqweqwe"
-  },
-  {
-    "Id": 3,
-    "Naslov": "dimniški požar",
-    "Datum": "1.12.2021",
-    "Opis": "qweqweqwe"
-  },
-  {
-    "Id": 4,
-    "Naslov": "dimniški požar",
-    "Datum": "1.12.2021",
-    "Opis": "qweqweqwe"
-  },
-  {
-    "Id": 5,
-    "Naslov": "dimniški požar",
-    "Datum": "1.12.2021",
-    "Opis": "pred pred zadnja"
-  },
-  {
-    "Id": 6,
-    "Naslov": "dimniški požar",
-    "Datum": "1.12.2021",
-    "Opis": "pred zadnja"
-  },
-  {
-    "Id": 7,
-    "Naslov": "dimniški požar",
-    "Datum": "1.12.2021",
-    "Opis": "Zadnja"
+    "Id": 101,
+    "Naslov": "Odpiranje vrat",
+    "Datum": "2021-01-06T00:00:00",
+    "Opis": "Ob 19.52 smo posredovali v ulici Nova vas, kjer smo s tehničnim posegom odprli vrata in ekipi NMP omogočili dostop do obolele osebe."
   }
 ]

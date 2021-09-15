@@ -59,18 +59,11 @@ namespace PgdGorenjiLogatec.Controllers
         {
             List<Intervencija> All = GetIntervencije();
             return View(All);
-            //return View();
         }
 
         public ActionResult Uredi(int id) {
             List<Intervencija> All = GetIntervencije();
-            Intervencija glavna_intervencija = new Intervencija();
-            foreach (var inter in All) {
-                if (inter.Id == id) {
-                    return View(inter);
-                }
-            }
-
+            Intervencija glavna_intervencija = All.Find(x => x.Id == id);
             return View(glavna_intervencija);
         }
 
@@ -92,7 +85,7 @@ namespace PgdGorenjiLogatec.Controllers
 
             Write(All);
 
-            return View(i);
+            return RedirectToAction("UrejanjeIntervencij", "Admin");
         }
 
         [HttpGet]
@@ -106,6 +99,24 @@ namespace PgdGorenjiLogatec.Controllers
         public ActionResult Izbrisi(Intervencija i){
             List<Intervencija> All = GetIntervencije();
             All.RemoveAll(x => x.Id == i.Id);
+            Write(All);
+            return RedirectToAction("UrejanjeIntervencij", "Admin");
+        }
+
+        [HttpGet]
+        public IActionResult Dodaj() {
+            List<Intervencija> All = GetIntervencije();
+            Intervencija temp = All.Last();
+            Intervencija rez = new Intervencija();
+            rez.Id = temp.Id + 1;
+            return View(rez);
+        }
+
+        [HttpPost]
+        public IActionResult Dodaj(Intervencija i)
+        {
+            List<Intervencija> All = GetIntervencije();
+            All.Add(i);
             Write(All);
             return RedirectToAction("UrejanjeIntervencij", "Admin");
         }

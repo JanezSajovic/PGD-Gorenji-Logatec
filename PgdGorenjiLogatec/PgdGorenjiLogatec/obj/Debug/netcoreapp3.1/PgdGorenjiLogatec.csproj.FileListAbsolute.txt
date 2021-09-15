@@ -816,4 +816,5 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.pdb
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.genruntimeconfig.cache
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Izbrisi.cshtml.g.cs
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Dodaj.cshtml.g.cs
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.AssemblyReference.cache
