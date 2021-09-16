@@ -114,5 +114,25 @@
     <!-- Template Main JS File -->
     <script src="~/assets/js/main.js"></script>
     <script src="~/js/site.js"></script>
+    <script>
+        function doIt(id) {
+            var leto = document.getElementById("arhiv_leto");
+            console.log(leto);
+            $.ajax({
+                url: '@Url.Action("ArhivAjax", "Home")',
+                data: { 'leto': leto.value },
+                type: "GET",
+                cache: false,
+                success: function (result) {
+                    $("#qweqwe").html(result);
+                    console.log(result);
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr, ajaxOptions, thrownError);
+                }
+            })
+        }
+
+    </script>
 </body>
 </html>

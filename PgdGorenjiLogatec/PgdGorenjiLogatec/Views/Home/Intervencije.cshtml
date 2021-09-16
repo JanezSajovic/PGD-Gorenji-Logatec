@@ -12,26 +12,42 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 entries">
-                @foreach (var qwe in Model) {
-                    <article class="entry" data-aos="fade-up">
-                        <h4 class="entry-title">
-                            @qwe.Naslov.ToUpper()
-                        </h4>
+                <div class="row">
+                    <div class="col-lg-10 text-right">Arhiv: </div>
+                    <div class="col-lg-2">
+                        <select name="cars" id="arhiv_leto" onchange="doIt()">
+                            <option value="2021">Intervencije 2021</option>
+                            <option value="2020">Intervencije 2020</option>
+                            <option value="2019">Intervencije 2019</option>
+                            <option value="2018">Intervencije 2018</option>
+                            <option value="2017">Intervencije 2017</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div id="qweqwe">
+                    @foreach (var qwe in Model)
+                    {
+                        <article class="entry" data-aos="fade-up">
+                            <h4 class="entry-title">
+                                @qwe.Naslov.ToUpper()
+                            </h4>
 
-                        <div class="entry-meta">
-                            <ul>
-                                <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="@qwe.Datum">@qwe.Datum.ToShortDateString()</time></a></li>
-                            </ul>
-                        </div>
+                            <div class="entry-meta">
+                                <ul>
+                                    <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="@qwe.Datum">@qwe.Datum.ToShortDateString()</time></a></li>
+                                </ul>
+                            </div>
 
-                        <div class="entry-content">
-                            <p>
-                                @qwe.Opis
-                            </p>
-                        </div>
+                            <div class="entry-content">
+                                <p>
+                                    @qwe.Opis
+                                </p>
+                            </div>
 
-                    </article>
-                }
+                        </article>
+                    }
+                </div>
             </div>
         </div>
     </div>

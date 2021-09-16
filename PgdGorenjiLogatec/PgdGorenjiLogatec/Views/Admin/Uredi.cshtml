@@ -25,7 +25,7 @@
                         @Html.TextAreaFor(x => x.Naslov, new { rows = "5", cols = "40", style = "resize: none; " })
                     </td>
                     <td>
-                        @Html.TextBoxFor(x => x.Datum)                      
+                        @Html.TextBoxFor(x => x.Datum)
                     </td>
                     <td>
                         @Html.TextAreaFor(x => x.Opis, new { rows = "10", cols = "80", style = "resize: none; " })
@@ -33,6 +33,7 @@
                 </tr>
             </tbody>
         </table>
-        <button type="submit" class="btn btn-secondary">Posodobi</button>
+        <button type="submit" class="btn btn-secondary">Posodobi</button> |
+        <a asp-action="UrejanjeIntervencij">Nazaj na seznam</a>
     </form>
 </section>

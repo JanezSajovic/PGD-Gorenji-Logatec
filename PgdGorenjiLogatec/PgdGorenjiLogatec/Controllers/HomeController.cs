@@ -57,11 +57,24 @@ namespace PgdGorenjiLogatec.Controllers
             return View(All);
         }
 
-        public List<Intervencija> GetIntervencije()
+        public IActionResult ArhivAjax(int leto) {
+            int a = 1;
+            string rez = "";
+            List<Intervencija> AllArhiv = GetIntervencije(2021);
+            AllArhiv.Reverse();
+            foreach (var inter in AllArhiv) { 
+                rez += "<article class='entry' data-aos='fade - up'><h4 class='entry-title'>"+inter.Naslov.ToUpper()+"</h4><div class='entry-meta'><ul>" +
+                    "<li class='d-flex align-items-center'><i class='icofont-wall-clock'></i> " +
+                    "<a href = 'blog-single.html'><time datetime='"+inter.Datum+"'>"+inter.Datum.ToShortDateString()+"</time></a></li></ul></div><div class='entry-content'><p> "+inter.Opis+"</p></div></article>"; 
+            }
+            return Content(rez);
+        }
+
+        public List<Intervencija> GetIntervencije(int leto = 2021)
         {
             string json = "";
             List<Intervencija> intervencije = new List<Intervencija>();
-            using (StreamReader r = new StreamReader("Data/Baza_Intervencije_2021.json"))
+            using (StreamReader r = new StreamReader("Data/Baza_Intervencije_"+leto+".json"))
             {
                 json = r.ReadToEnd();
                 intervencije = JsonConvert.DeserializeObject<List<Intervencija>>(json);
