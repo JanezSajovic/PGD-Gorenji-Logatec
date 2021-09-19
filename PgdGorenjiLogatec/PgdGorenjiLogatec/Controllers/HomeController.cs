@@ -58,9 +58,8 @@ namespace PgdGorenjiLogatec.Controllers
         }
 
         public IActionResult ArhivAjax(int leto) {
-            int a = 1;
             string rez = "";
-            List<Intervencija> AllArhiv = GetIntervencije(2021);
+            List<Intervencija> AllArhiv = GetIntervencije(leto);
             AllArhiv.Reverse();
             foreach (var inter in AllArhiv) { 
                 rez += "<article class='entry' data-aos='fade - up'><h4 class='entry-title'>"+inter.Naslov.ToUpper()+"</h4><div class='entry-meta'><ul>" +

@@ -4,6 +4,23 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+$(window).on('load', function () {
+    var fullpath = window.location.pathname;
+    console.log(fullpath)
+    var filename = fullpath.replace(/^.*[\\\/]/, '');
+    console.log(filename)
+    if (fullpath == "/") {
+        var currentLink = document.getElementById("Domov");
+        currentLink.classList.add("active");
+    }
+    else {
+        var currentLink = document.getElementById(filename);
+        currentLink.classList.add("active");
+    }
+    
+});
+
 !(function ($) {
     "use strict";
 
@@ -88,18 +105,18 @@
         $(".mobile-nav, .mobile-nav-toggle").hide();
     }
 
-    // Intro carousel
-    var heroCarousel = $("#heroCarousel");
-    var heroCarouselIndicators = $("#hero-carousel-indicators");
-    heroCarousel.find(".carousel-inner").children(".carousel-item").each(function (index) {
-        (index === 0) ?
-            heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "' class='active'></li>") :
-            heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "'></li>");
-    });
+    //// Intro carousel
+    //var heroCarousel = $("#heroCarousel");
+    //var heroCarouselIndicators = $("#hero-carousel-indicators");
+    //heroCarousel.find(".carousel-inner").children(".carousel-item").each(function (index) {
+    //    (index === 0) ?
+    //        heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "' class='active'></li>") :
+    //        heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "'></li>");
+    //});
 
-    heroCarousel.on('slid.bs.carousel', function (e) {
-        $(this).find('.carousel-content ').addClass('animate__animated animate__fadeInDown');
-    });
+    //heroCarousel.on('slid.bs.carousel', function (e) {
+    //    $(this).find('.carousel-content ').addClass('animate__animated animate__fadeInDown');
+    //});
 
     // Back to top button
     $(window).scroll(function () {

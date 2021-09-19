@@ -1877,7 +1877,7 @@
   },
   "libraries": {
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
-      "sha512": "Z08ZN/kjJ15AQyNY349dpTPJdpdVJ/RYLLJjY9sf6VoHBf3vRBSCBx6orXMspMeRJrhHultPTP0IKVK2g4KZxg==",
+      "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
       "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
       "files": [
@@ -1921,7 +1921,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor/2.2.0": {
-      "sha512": "aM2aGQQh/kVOdgThej+4+ypFU8jSp2Dq/wZg9+e6/7RVAwlk8lQp8n2iYV9ltsSycE/4EU+LIMHegzaGBLOmsA==",
+      "sha512": "V54PIyDCFl8COnTp9gezNHpUNHk7F9UnerGeZy3UfbnwYvfzbo+ipqQmSgeoESH8e0JvKhRTyQyZquW2EPtCmg==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor/2.2.0",
       "files": [
@@ -1948,7 +1948,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Runtime/2.2.0": {
-      "sha512": "UMBfVgxYVH0/OYNleZGCEsLHK8X5j80dU5hqYYBoTm2TfUoBkXDecuODtDAf5x0KfKZLKHnDT4+5lcIKKthQog==",
+      "sha512": "7YqK+H61lN6yj9RiQUko7oaOhKtRR9Q/kBcoWNRemhJdTIWOh1OmdvJKzZrMWOlff3BAjejkPQm+0V0qXk+B1w==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.runtime/2.2.0",
       "files": [
@@ -6246,23 +6246,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sajovicj\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\MeGeT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
+      "projectUniqueName": "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
       "projectName": "PgdGorenjiLogatec",
-      "projectPath": "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
-      "packagesPath": "C:\\Users\\sajovicj\\.nuget\\packages\\",
-      "outputPath": "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\obj\\",
+      "projectPath": "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
+      "packagesPath": "C:\\Users\\MeGeT\\.nuget\\packages\\",
+      "outputPath": "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sajovicj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MeGeT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6270,8 +6266,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -6320,7 +6315,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },

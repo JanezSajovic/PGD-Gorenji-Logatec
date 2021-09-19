@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj": {}
+    "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj": {}
   },
   "projects": {
-    "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj": {
+    "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
+        "projectUniqueName": "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
         "projectName": "PgdGorenjiLogatec",
-        "projectPath": "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
-        "packagesPath": "C:\\Users\\sajovicj\\.nuget\\packages\\",
-        "outputPath": "E:\\_Projects\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\obj\\",
+        "projectPath": "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec.csproj",
+        "packagesPath": "C:\\Users\\MeGeT\\.nuget\\packages\\",
+        "outputPath": "F:\\___PROJECTS___\\PGD-Gorenji-Logatec\\PgdGorenjiLogatec\\PgdGorenjiLogatec\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sajovicj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MeGeT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -75,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

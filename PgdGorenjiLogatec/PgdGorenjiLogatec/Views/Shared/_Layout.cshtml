@@ -45,7 +45,7 @@
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo mr-auto"><a href="index.html"><span>PGD</span> GORENJI LOGATEC</a></h1>
+            <h1 class="logo mr-auto"><a href="@Url.Action("Domov", "Home")"><span>PGD</span> GORENJI LOGATEC</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -54,14 +54,14 @@
                     <li id="Domov"><a href="@Url.Action("Domov", "Home")">Domov</a></li>
                     <li id="Intervencije"><a href="@Url.Action("Intervencije", "Home")">Intervencije</a></li>
                     <li id="Povezave"><a href="@Url.Action("Povezave", "Home")">Koristne povezave</a></li>
-                    <li id="Novice"><a href="@Url.Action("Novice", "Home")">Novice</a></li>
+                    @*<li id="Novice"><a href="@Url.Action("Novice", "Home")">Novice</a></li>*@
                     <li id="Oprema"><a href="@Url.Action("Oprema", "Home")">Vozila in oprema</a></li>
                     <li id="Kontakt"><a href="@Url.Action("Kontakt", "Home")">Kontakt</a></li>
                 </ul>
             </nav><!-- .nav-menu -->
             <div class="header-social-links">
-                <a href="https://www.facebook.com/pgd.gorenjilogatec" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="https://www.instagram.com/pgdgorenjilogatec/" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="https://www.facebook.com/pgd.gorenjilogatec" class="facebook" target=”_blank” ><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/pgdgorenjilogatec/" class="instagram" target=”_blank” ><i class="icofont-instagram"></i></a>
             </div>
 
         </div>
