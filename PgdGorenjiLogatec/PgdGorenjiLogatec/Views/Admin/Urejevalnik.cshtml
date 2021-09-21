@@ -4,9 +4,25 @@
 
 
 <section class="povezave">
-    <h1>Urejevalnik</h1>
+    <div class="section-title">
+        <h2>Urejevalnik</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 text-md-right text-sm-center">
+                        <a href="@Url.Action("UrejanjeIntervencij", "Admin")">Urejanje intervencij</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-md-left text-sm-center">
+                        <a href="@Url.Action("UrejanjeNovic", "Admin")">Urejanje novic</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <a href="@Url.Action("UrejanjeIntervencij", "Admin")">Urejanje intervencij</a>
-    <a href="@Url.Action("UrejanjeNovic", "Admin")">Urejanje novic</a>
+    
+    
 </section>

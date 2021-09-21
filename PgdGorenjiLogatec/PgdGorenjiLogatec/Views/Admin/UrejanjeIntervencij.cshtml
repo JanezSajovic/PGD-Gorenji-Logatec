@@ -9,42 +9,60 @@
     <div class="section-title">
         <h2>UREJANJE INTERVENCIJ</h2>
     </div>
-    <table class="table">
-        <thead>
-            <tr>
-                <td><b>Naslov intervencije</b></td>
-                <td><b>Datum intervencije</b></td>
-                <td><b>Opis intervencije</b></td>
-                <td><b></b></td>
-            </tr>
+    <div class="container">
+        <div class="col-xl-12">
+            <div class="row">
+                <div class="w-100" style="text-align: right">
+                    @Html.ActionLink("Dodaj novo intervencijo", "Dodaj", "Admin", null, new { @class = "btn btn-success" })
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td><b>Naslov </b></td>
+                            <td><b>Datum </b></td>
+                            <td><b>Opis </b></td>
+                            <td><b></b></td>
+                        </tr>
 
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                
-                <tr>
-                    <td style="display:none">
-                        <input asp-for="@item.Id" type="hidden" />
-                    </td>
-                    <td style="text-align:left">
-                        @item.Naslov
-                    </td>
-                    <td>
-                        @item.Datum
-                    </td>
-                    <td>
-                        @item.Opis.Substring(0, 80)  ...
-                    </td>
-                    <td style="text-align:right">
-                        @Html.ActionLink("Uredi", "Uredi", "Admin", new { id = item.Id }) |
-                        @Html.ActionLink("Podrobnosti", "Details", "Admin", new { id = item.Id }) |
-                        @Html.ActionLink("Izbriši", "Izbrisi", "Admin", new { id = item.Id })
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+
+                            <tr>
+                                <td style="display:none">
+                                    <input asp-for="@item.Id" type="hidden" />
+                                </td>
+                                <td style="text-align:left">
+                                    @item.Naslov
+                                </td>
+                                <td>
+                                    @item.Datum
+                                </td>
+                                <td>
+                                    @item.Opis.Substring(0, 25)  ...
+                                </td>
+                                <td style="text-align:right">
+                                    @Html.ActionLink("Uredi", "Uredi", "Admin", new { id = item.Id }) |
+                                    @*@Html.ActionLink("Podrobnosti", "Details", "Admin", new { id = item.Id }) |*@
+                                    @Html.ActionLink("Izbriši", "Izbrisi", "Admin", new { id = item.Id })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="w-100" style="text-align: right">
+                    @Html.ActionLink("Nazaj", "Urejevalnik", "Admin", null, new { @class = "btn btn-secondary" })
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </section>
 
 

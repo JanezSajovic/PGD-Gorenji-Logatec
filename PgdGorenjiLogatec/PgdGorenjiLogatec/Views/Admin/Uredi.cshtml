@@ -5,35 +5,52 @@
 }
 
 <section class="povezave">
-    <h1>Urejanje Intervencije</h1>
     <form asp-controller="Admin" asp-action="Uredi" method="post">
-        <table class="table">
-            <thead>
-                <tr>
-                    <td><b>Naslov intervencije</b></td>
-                    <td><b>Datum intervencije</b></td>
-                    <td><b>Opis intervencije</b></td>
-                </tr>
+        <div class="section-title">
+            <h2>Urejanje Intervencije</h2>
+        </div>
+        <div class="container">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="w-100" style="text-align: right">
+                        <button type="submit" class="btn btn-success">Posodobi podatke</button>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td><b>Naslov intervencije</b></td>
+                                <td><b>Datum intervencije</b></td>
+                                <td><b>Opis intervencije</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="display:none;">
+                                    @Html.HiddenFor(x => x.Id)
+                                </td>
+                                <td>
+                                    @Html.TextAreaFor(x => x.Naslov, new { rows = "5", cols = "30", style = "resize: none; width: 100%;" })
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => x.Datum)
+                                </td>
+                                <td>
+                                    @Html.TextAreaFor(x => x.Opis, new { rows = "10", cols = "50", style = "resize: none; width: 100%;" })
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="display:none;">
-                        @Html.HiddenFor(x => x.Id)
-                    </td>
-                    <td>
-                        @Html.TextAreaFor(x => x.Naslov, new { rows = "5", cols = "40", style = "resize: none; " })
-                    </td>
-                    <td>
-                        @Html.TextBoxFor(x => x.Datum)
-                    </td>
-                    <td>
-                        @Html.TextAreaFor(x => x.Opis, new { rows = "10", cols = "80", style = "resize: none; " })
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <button type="submit" class="btn btn-secondary">Posodobi</button> |
-        <a asp-action="UrejanjeIntervencij">Nazaj na seznam</a>
+                </div>
+                <div class="row">
+                    <div class="w-100 text-right">
+                        <a asp-action="UrejanjeIntervencij" class="btn btn-secondary">Nazaj na seznam</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </form>
 </section>

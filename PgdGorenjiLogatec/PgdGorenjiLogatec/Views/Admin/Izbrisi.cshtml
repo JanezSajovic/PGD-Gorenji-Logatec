@@ -7,40 +7,51 @@
 
 <section id="blog" class="blog" style="padding: 90px !important;">
     <form asp-controller="Admin" asp-action="Izbrisi" method="post">
-        <h1>Izbrisi</h1>
-        <div>
-            <h4>Intervencija</h4>
-            <hr />
-            <dl class="row">
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.Id)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.TextBoxFor(model => model.Id, new { @readonly = true })
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.Naslov)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.TextBoxFor(model => model.Naslov, new { @readonly = true })
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.Datum)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.TextBoxFor(model => model.Datum, new { @readonly = true })
-                </dd>
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.Opis)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.TextBoxFor(model => model.Opis, new { @readonly = true })
-                </dd>
-            </dl>
+        <div class="section-title">
+            <h2>Urejanje Intervencije</h2>
+        </div>
 
-
-            <input type="submit" value="Izbriši" class="btn btn-danger" /> |
-            <a asp-action="UrejanjeIntervencij">Nazaj na seznam</a>
+        <div class="container">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="w-100 text-right">
+                        <input type="submit" value="Izbriši intervencijo" class="btn btn-danger" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td><b>Naslov intervencije</b></td>
+                                <td><b>Datum intervencije</b></td>
+                                <td><b>Opis intervencije</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="display:none;">
+                                    @Html.HiddenFor(x => x.Id)
+                                </td>
+                                <td>
+                                    @Html.TextAreaFor(x => x.Naslov, new { @readonly = true, rows = "5", cols = "30", style = "resize: none; width: 100%;" })
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => x.Datum, new { @readonly = true })
+                                </td>
+                                <td>
+                                    @Html.TextAreaFor(x => x.Opis, new { @readonly = true, rows = "10", cols = "50", style = "resize: none; width: 100%;" })
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="w-100 text-right">
+                        <a asp-action="UrejanjeIntervencij" class="btn btn-secondary">Nazaj na seznam</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 </section>
