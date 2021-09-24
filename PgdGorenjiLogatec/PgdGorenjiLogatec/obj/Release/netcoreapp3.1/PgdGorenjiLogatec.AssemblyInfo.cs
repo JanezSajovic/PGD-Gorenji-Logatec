@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("670e11bd-acfd-4f1d-8c20-33f6deb20992")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PgdGorenjiLogatec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
