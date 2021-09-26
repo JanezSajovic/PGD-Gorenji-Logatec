@@ -12,7 +12,10 @@
     <div class="container">
         <div class="col-xl-12">
             <div class="row">
-                <div class="w-100" style="text-align: right">
+                <div class="col-6 w-100 text-left">
+                    Prijavljeni kot: <b>@TempData["user"].ToString().ToUpper()</b>
+                </div>
+                <div class="col-6 w-100 text-right">
                     @Html.ActionLink("Dodaj novo intervencijo", "Dodaj", "Admin", null, new { @class = "btn btn-success" })
                 </div>
             </div>

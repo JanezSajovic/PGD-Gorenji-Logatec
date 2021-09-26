@@ -818,7 +818,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Dodaj.cshtml.g.cs
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\appsettings.json
-E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2021.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Uporabniki.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\PgdGorenjiLogatec.exe
@@ -1119,7 +1118,6 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\n
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -1130,7 +1128,6 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\n
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Owin.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -1230,3 +1227,8 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2019.json
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2020.json
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.AssemblyReference.cache
+E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2018.json
+E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2019.json
+E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2020.json
+E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\ActiveUser.json
+E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csprojAssemblyReference.cache

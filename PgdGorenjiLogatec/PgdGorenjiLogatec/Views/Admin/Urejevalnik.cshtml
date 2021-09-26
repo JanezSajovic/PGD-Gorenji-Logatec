@@ -8,15 +8,23 @@
         <h2>Urejevalnik</h2>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 text-md-right text-sm-center">
-                        <a href="@Url.Action("UrejanjeIntervencij", "Admin")">Urejanje intervencij</a>
-                    </div>
-                    <div class="col-md-6 col-sm-12 text-md-left text-sm-center">
-                        <a href="@Url.Action("UrejanjeNovic", "Admin")">Urejanje novic</a>
-                    </div>
+        <div class="col-xl-12">
+            <div class="row">
+                <div class="col-6 w-100 text-left">
+                    Prijavljeni kot: <b>@TempData["user"].ToString().ToUpper()</b>
+                </div>
+                <div class="col-6 w-100 text-right">
+                    <a href="@Url.Action("Odjava", "Admin")" class="btn btn-danger">Odjava</a>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-md-right text-sm-center">
+                    <a href="@Url.Action("UrejanjeIntervencij", "Admin")" class="btn btn-outline-danger p-5 m-4">Urejanje intervencij</a>
+                </div>
+                <div class="col-md-6 col-sm-12 text-md-left text-sm-center">
+                    <a href="@Url.Action("UrejanjeNovic", "Admin")"class="btn btn-outline-danger p-5 m-4">Urejanje novic</a>
                 </div>
             </div>
         </div>
