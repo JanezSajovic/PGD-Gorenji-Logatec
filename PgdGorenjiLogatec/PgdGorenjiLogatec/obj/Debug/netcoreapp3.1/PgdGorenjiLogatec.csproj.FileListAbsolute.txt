@@ -709,7 +709,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -720,7 +719,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\De
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Owin.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -1226,9 +1224,9 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\n
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2018.json
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2019.json
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2020.json
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.AssemblyReference.cache
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2018.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2019.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\Baza_Intervencije_2020.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\ActiveUser.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csprojAssemblyReference.cache
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\ActiveUser.json
