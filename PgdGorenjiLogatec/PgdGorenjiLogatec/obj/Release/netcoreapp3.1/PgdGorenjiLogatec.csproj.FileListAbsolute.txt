@@ -707,7 +707,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Re
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.Owin.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -718,7 +717,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Re
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Owin.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
@@ -1228,3 +1226,4 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PgdGorenjiLogatec.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PgdGorenjiLogatec.pdb
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PgdGorenjiLogatec.genruntimeconfig.cache
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Release\netcoreapp3.1\Data\ActiveUser.json
