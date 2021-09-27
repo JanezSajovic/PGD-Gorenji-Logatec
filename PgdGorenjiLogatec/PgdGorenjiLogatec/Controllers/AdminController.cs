@@ -46,6 +46,10 @@ namespace PgdGorenjiLogatec.Controllers
                         TempData["user"] = prijava.UporabniskoIme;
                         return RedirectToAction("Urejevalnik", "Admin");
                     }
+                    else if (prijava.UporabniskoIme != upo.UporabniskoIme && prijava.Geslo != upo.Geslo)
+                    {
+                        continue;
+                    }
                     else {
                         return RedirectToAction("Domov", "Home");
                     }
