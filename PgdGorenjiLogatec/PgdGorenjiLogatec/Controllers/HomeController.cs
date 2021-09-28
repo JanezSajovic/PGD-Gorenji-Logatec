@@ -45,6 +45,11 @@ namespace PgdGorenjiLogatec.Controllers
             return View();
         }
 
+        public IActionResult Organigram()
+        {
+            return View();
+        }
+
         public IActionResult Novice()
         {
             return View();

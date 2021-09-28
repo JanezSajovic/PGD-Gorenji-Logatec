@@ -1230,3 +1230,5 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\n
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\ActiveUser.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csprojAssemblyReference.cache
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\bin\Debug\netcoreapp3.1\Data\ActiveUser.json
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\PgdGorenjiLogatec.csproj.AssemblyReference.cache
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Debug\netcoreapp3.1\Razor\Views\Home\Organigram.cshtml.g.cs
