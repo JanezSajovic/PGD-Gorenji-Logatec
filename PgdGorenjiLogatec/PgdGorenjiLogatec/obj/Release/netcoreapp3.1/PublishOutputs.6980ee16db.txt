@@ -182,6 +182,7 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\zdlogatec-logo.png
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Data\ActiveUser.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Data\Baza_Intervencije_2018.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Data\Baza_Intervencije_2019.json
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Data\Baza_Intervencije_2020.json
@@ -200,7 +201,6 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.Razor.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
-E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Owin.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -211,7 +211,6 @@ E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\NuGet.Frameworks.dll
-E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\Owin.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.AttributedModel.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Convention.dll
 E:\_Projects\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Hosting.dll

@@ -2275,3 +2275,21 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.text-red {
+   color: #ff3838;
+   font-weight: bold;
+}
+
+.modal-dialog {
+    max-width: 50% !important;
+}
+
+
+.table-pgd {
+    font-size: 14px !important;
+}
+    .table-pgd td, .table-pgd th {
+        padding: .25rem !important;
+        border-bottom: solid 1px #e6e6e6;
+    }

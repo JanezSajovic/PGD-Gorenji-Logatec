@@ -20,3 +20,14 @@ $(window).on('load', function () {
     }
     
 });
+
+
+function Slika(id) {
+    console.log(id);
+    var c = document.getElementById("carouselExampleControls").childNodes;
+    var txt = "";
+    var i;
+    for (i = 0; i < c.length; i++) {
+        console.log(c[i].nodeName)
+    }
+}
