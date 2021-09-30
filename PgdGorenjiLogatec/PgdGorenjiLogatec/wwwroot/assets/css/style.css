@@ -1593,6 +1593,7 @@ section {
     margin-bottom: 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .blog .entry .entry-img {

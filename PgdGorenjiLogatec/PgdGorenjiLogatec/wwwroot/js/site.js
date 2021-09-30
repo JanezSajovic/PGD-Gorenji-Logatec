@@ -23,7 +23,7 @@ $(window).on('load', function () {
 
 
 function Slika(id) {
-    var el = document.getElementById("ewqewq").children;
+    var el = document.getElementById("galerija").children;
     for (var i = 0; i < el.length; i++) {
         if (el[i].getAttribute("id") == id) {
             el[i].classList.add("active");

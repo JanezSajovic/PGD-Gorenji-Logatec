@@ -23,11 +23,16 @@ $(window).on('load', function () {
 
 
 function Slika(id) {
-    console.log(id);
-    var c = document.getElementById("carouselExampleControls").childNodes;
-    var txt = "";
-    var i;
-    for (i = 0; i < c.length; i++) {
-        console.log(c[i].nodeName)
+    var el = document.getElementById("galerija").children;
+    for (var i = 0; i < el.length; i++) {
+        if (el[i].getAttribute("id") == id) {
+            el[i].classList.add("active");
+            continue;
+        }
+        else {
+            if (el[i].getElementsByClassName('active')) {
+                el[i].classList.remove("active");
+            }
+        }
     }
 }

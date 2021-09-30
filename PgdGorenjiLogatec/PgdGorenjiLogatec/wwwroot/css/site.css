@@ -13,6 +13,12 @@
     max-width: 70% !important;
 }
 
+@media only screen and (max-width: 1024px) {
+    .modal-dialog {
+        max-width: 95% !important;
+    }
+}
+
 
 .table-pgd {
     font-size: 14px !important;
