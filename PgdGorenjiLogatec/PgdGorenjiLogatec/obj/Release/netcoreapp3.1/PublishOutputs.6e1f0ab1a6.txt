@@ -126,8 +126,6 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Re
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\CustomCSS.css
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\site.css
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\firefighter-helmet.png
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\firefighter.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\ikona.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\site.js
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -170,7 +168,8 @@ F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Re
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\kamion.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\kombi.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\logatec-logo.png
-F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\PGD_Logo.png
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\PGD_Logo.jpg
+F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\PGD_Logo_test.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\poveljnik_gas_drustva.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\predsednik_drustva.png
 F:\___PROJECTS___\PGD-Gorenji-Logatec\PgdGorenjiLogatec\PgdGorenjiLogatec\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pictures\prikolica-mehka.png
