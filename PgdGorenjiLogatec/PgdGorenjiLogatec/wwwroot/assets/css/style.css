@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 90px 0;
   overflow: hidden;
 }
 
@@ -2275,21 +2275,3 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
-.text-red {
-   color: #ff3838;
-   font-weight: bold;
-}
-
-.modal-dialog {
-    max-width: 50% !important;
-}
-
-
-.table-pgd {
-    font-size: 14px !important;
-}
-    .table-pgd td, .table-pgd th {
-        padding: .25rem !important;
-        border-bottom: solid 1px #e6e6e6;
-    }

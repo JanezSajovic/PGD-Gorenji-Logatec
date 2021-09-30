@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Tekmovanja";
 }
-<section id="about-us" class="povezave about-us">
+<section id="about-us" class="about-us">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -11,7 +11,7 @@
 
         <div class="row content">
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-12 order-12" data-aos="fade-right">
-                <img id="kamion" class="w-100" src="~/pictures/kamion.png" data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)" style="margin: 0 auto; display: block; border-radius: 15px; " />
+                <img id="kamion" class="w-100 slika-oprema" src="~/pictures/kamion.png" data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)" />
             </div>
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-1 order-1" data-aos="fade-left">
                 <p>
@@ -27,7 +27,7 @@
         <br />
         <div class="row content">
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-1 order-12" data-aos="fade-right">
-                <img id="kombi" class="w-100" src="~/pictures/kombi.png" data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)" style="margin: 0 auto; display: block; border-radius: 15px;" />
+                <img id="kombi" class="w-100 slika-oprema" src="~/pictures/kombi.png" data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)" />
             </div>
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-12 order-1" data-aos="fade-left">
                 <p>
@@ -44,7 +44,7 @@
         <br />
         <div class="row content">
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-12 order-12" data-aos="fade-right">
-                <img class="w-100" src="~/pictures/ranger.png"  data-toggle="modal" data-target="#exampleModalCenter" style="margin: 0 auto; display: block; border-radius: 15px;" />
+                <img id="ranger" class="w-100 slika-oprema" src="~/pictures/ranger.png"  data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)" />
             </div>
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-1 order-1" data-aos="fade-left">
                 <p>
@@ -60,7 +60,7 @@
         <br />
         <div class="row content">
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-1 order-12" data-aos="fade-right">
-                <img class="w-100" src="~/pictures/prikolica-trda.png"  data-toggle="modal" data-target="#exampleModalCenter" style="margin: 0 auto; display: block; border-radius: 15px;" />
+                <img id="trda-prikolica" class="w-100 slika-oprema" src="~/pictures/prikolica-trda.png"  data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)"/>
             </div>
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-12 order-1" data-aos="fade-left">
                 <p>
@@ -77,7 +77,7 @@
         <br />
         <div class="row content">
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-12 order-12" data-aos="fade-right">
-                <img class="w-100" src="~/pictures/prikolica-mehka.png" data-toggle="modal" data-target="#exampleModalCenter" style="margin: 0 auto; display: block; border-radius: 15px;" />
+                <img id="mehka-prikolica" class="w-100 slika-oprema" src="~/pictures/prikolica-mehka.png" data-toggle="modal" data-target="#exampleModalCenter" onclick="Slika(id)"/>
             </div>
             <div class="col-lg-6 col-md-12 pt-4 pt-lg-0 order-lg-1 order-1" data-aos="fade-left">
                 <p>
@@ -99,20 +99,20 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div id="kamion" class="carousel-item active">
+                    <div id="ewqewq" class="carousel-inner">
+                        <div id="kamion" class="carousel-item">
                             <img class="d-block w-100" src="~/pictures/kamion.png" alt="First slide">
                         </div>
                         <div id="kombi" class="carousel-item">
                             <img class="d-block w-100" src="~/pictures/kombi.png" alt="Second slide">
                         </div>
-                        <div class="carousel-item">
+                        <div id="ranger" class="carousel-item">
                             <img class="d-block w-100" src="~/pictures/ranger.png" alt="Third slide">
                         </div>
-                        <div class="carousel-item">
+                        <div id="trda-prikolica" class="carousel-item">
                             <img class="d-block w-100" src="~/pictures/prikolica-trda.png" alt="Third slide">
                         </div>
-                        <div class="carousel-item">
+                        <div id="mehka-prikolica" class="carousel-item">
                             <img class="d-block w-100" src="~/pictures/prikolica-mehka.png" alt="Third slide">
                         </div>
                     </div>
